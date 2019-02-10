@@ -16,3 +16,5 @@ $router->get('/', function () use ($router) {
 });
 
 $router->post('users', 'UserController@create');
+
+$router->post('notifications', 'NotificationController@failed' );

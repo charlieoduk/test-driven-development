@@ -14,5 +14,5 @@ before_script:
 script: vendor/bin/phpunit
 
 notifications:
-  webhooks: https://6ff56b0b.ngrok.io/notifications.php
+  webhooks: https://ea5ca623.ngrok.io/notifications.php
   on_success: never
